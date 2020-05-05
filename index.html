@@ -5,26 +5,29 @@
             <style>
                 .link{
                     width: 70px;
-                    height: 28px;
+                    height: 25px;
                     background-color: gray;
+                    text-align: center;
                 }
-                a{
-                    position: relative;
-                    padding: 4px;
-
-                }
+                
+                
                 a:link{
                     color: honeydew;
                 }
-                a:active{
+                
+                a:checked{
                     color: honeydew;
+                }
+                a:visited{
+                    color: honeydew;
+                }
+                .link:active{
+                    background-color: hotpink;
                 }
             </style>
         </head>
         <body>
-           <div class="link">
-               <a href="Timetable.html">Timetable</a>
-           </div>
+               <a href="Timetable.html"><div class="link">Timetable</div></a>
         </body>
 
 </html>
